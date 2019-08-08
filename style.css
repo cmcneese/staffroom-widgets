@@ -20,3 +20,11 @@ li {
     margin: .5em;
     padding: .5em;
 }
+
+li:hover {
+    border: 2px solid #000;
+    margin: .5em;
+    padding: .5em;
+    background-color: #000;
+    color: #fff; 
+}
