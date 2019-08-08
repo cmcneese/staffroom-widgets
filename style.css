@@ -4,13 +4,15 @@ body {
 }
 
 .wrapper {
-    display: grid;
-    grid-template-columns: 20rem 40rem 10rem;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 20rem 40rem 10rem; */
 }
 
 ul {
     list-style-type: none;
     display: flex; 
+    justify-content: center;
 }
 
 li {
