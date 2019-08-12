@@ -1,27 +1,27 @@
-body {
+.quick-links {
     margin: 0;
     box-sizing: border-box;
 }
 
-.wrapper {
+.button-wrapper {
     display: flex;
     flex-direction: column;
     /* grid-template-columns: 20rem 40rem 10rem; */
 }
 
-ul {
+.button-container {
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
 
-li {
+.fa {
     border: 2px solid #000;
     margin: .5em;
     padding: .5em;
 }
 
-li:hover {
+.fa:hover {
     border: 2px solid #000;
     margin: .5em;
     padding: .5em;
